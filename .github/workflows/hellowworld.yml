@@ -8,3 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - run: echo "Minha primeira action!"
+      - run: id
+      - run: uname-a
