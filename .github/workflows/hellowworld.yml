@@ -7,6 +7,5 @@ jobs:
   hello_world:
     runs-on: [ubuntu-latest, push]
     steps: 
-      - run: echo "Minha primeira action!"
-      - run: id
+      - run: echo "Minha primeira action!"      
       - run: uname -a
