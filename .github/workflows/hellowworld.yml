@@ -5,8 +5,8 @@ on: workflow_dispatch
 
 jobs:
   hello_world:
-    runs-on: ubuntu-latest
+    runs-on: [ubuntu-latest, push]
     steps: 
       - run: echo "Minha primeira action!"
       - run: id
-      - run: uname-a
+      - run: uname -a
